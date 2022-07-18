@@ -1,0 +1,63 @@
+/* 
+    Created on : 8 jul. 2022, 15:25:30
+    Author     : Piet
+*/
+
+body {
+    max-width: 500px;
+    background-color: rgba(225, 225, 255, 100);
+    display: grid;
+    grid-template-columns: auto;
+    margin: 30px auto;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p {
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.score {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.voorbeeld {
+    display: flex;
+    justify-content: center;
+}
+
+.letter {
+    font-size: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 15px;
+    padding: 10px;
+}
+
+.letter1 {
+    background-color: lightgreen;
+}
+
+.letter2 {
+    background-color: yellow;
+}
+
+.letter3 {
+    background-color: grey;
+}
+
+.letter4 {
+    background-color: lightgreen;
+}
+
+.letter5 {
+    background-color: grey;
+}
