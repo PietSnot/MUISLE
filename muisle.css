@@ -1,0 +1,140 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 jun. 2022, 09:05:27
+    Author     : Piet
+*/
+
+body {
+    background-color: rgb(200, 200, 255);
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 10px;
+}
+
+.welkom {
+    font-size: 26px;
+    font-family: Arial sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.keuzes {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
+.keuze {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+#legaleWoorden {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+}
+
+label {
+    padding-right: 10px;
+    font-family: Arial;
+}
+
+.lengteWoord {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+    align-self: center;
+}
+
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial;
+    font-size: 1.1rem;
+    /*font-size: 20px;*/
+    /*font-weight: 600;*/
+    padding: 5px;
+}
+
+.speelveld {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-items: center;
+    background-color: lightgray;
+    gap: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px gray;
+    user-select: none;
+}
+
+.letterVeld {
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px gray;
+    text-align: center;
+    padding-top: 2px;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/*.onzichtbaar {
+    display: none;
+}*/
+
+.toetsenbord {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 5px;
+    justify-content: center;
+    border: 2px solid blue;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: lightgray;
+    user-select: none;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.toetsen {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.toets {
+    padding-bottom: 12px;
+    /*padding-right: 20px;*/
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: bold;
+    border: 2px;
+    border-style: outset;
+    border-radius: 8px;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.special {
+    width: auto;
+}
