@@ -1,5 +1,5 @@
 # MUISLE
-Dit spelletje is een kloon van het spelletje "Woordlw", Nederlandse versie.
+Dit spelletje is een kloon van het spelletje "Woordle", Nederlandse versie.
 
 Het spel kan net zo vaak worden gespeeld als de gebruiker wil, en er kan
 gekozen worden uit 5-, 6- en 7-letterige woorden.
